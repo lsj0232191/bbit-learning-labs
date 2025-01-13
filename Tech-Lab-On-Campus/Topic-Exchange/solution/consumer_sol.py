@@ -21,7 +21,9 @@ class mqConsumer(mqConsumerInterface):
         # Create Queue if not already present
         self.channel.queue_declare(queue=self.queue_name)
         # Create the exchange if not already present
-        self.exchange = self.channel.exchange_declare(self.exchange_name)
+        self.exchange = self.channel.exchange_declare(
+            exchange=self.exchange_name, exchange_type="topic"
+        )
         # Bind Binding Key to Queue on the exchange
         self.channel.queue_bind(
             queue=self.queue_name,
