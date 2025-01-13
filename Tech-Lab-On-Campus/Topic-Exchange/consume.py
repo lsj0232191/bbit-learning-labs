@@ -35,6 +35,9 @@ if __name__ == "__main__":
     #
     #                       WRITE CODE HERE!!!
     #
+    if len(sys.argv) < 2:
+        raise ValueError("Please provide 2 arguments, in the order of sector and queueName")
+
     sector = sys.argv[1]
     queueName = sys.argv[2]
 
