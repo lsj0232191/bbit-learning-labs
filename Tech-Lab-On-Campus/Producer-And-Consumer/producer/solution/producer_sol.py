@@ -1,3 +1,4 @@
+from producer.producer_interface import mqProducerInterface
 import pika
 import os
 import sys
