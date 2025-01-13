@@ -1,5 +1,5 @@
 
-# Learning Labs
+# Learning Labs!
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/bloomberg/bbit-learning-labs/HEAD)
 
 Get ready to learn! Bloomberg learning labs are a collection of activities designed to help candidates learn more about particular technologies, financial domain concepts and display how we can use computer science knowledge to solve problems in this domain.
